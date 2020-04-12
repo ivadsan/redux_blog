@@ -1,0 +1,17 @@
+.task_row{
+    display: flex;
+    padding: 10px;
+}
+
+.task_row:nth-child(even){
+    background-color: #dbd1fe;
+}
+.task_col1{
+    width: 35px;
+}
+.task_col2{
+    width: 100%;
+}
+.task_col3, .task_col4{
+    width: 70px;
+}
