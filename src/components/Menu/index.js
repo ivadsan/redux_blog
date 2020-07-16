@@ -4,7 +4,9 @@ import Logo from '../../assets/images/logo.png';
 
 const Menu = (props) => (
   <nav id='menu'>
-    <img src={Logo} alt='Logo' className='logo' />
+    <Link to='/'>
+      <img src={Logo} alt='Logo' className='logo' />
+    </Link>
     <div>
       <Link to='/'>Users</Link>
       <Link to='/tareas'>Tasks</Link>

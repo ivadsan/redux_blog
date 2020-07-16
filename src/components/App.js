@@ -7,7 +7,7 @@ import Publicaciones from './Publicaciones';
 import TareasGuardar from './Tareas/Guardar';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Menu />
     <div id='container'>
       <Switch>
